@@ -45,6 +45,13 @@ button {
     border: none;
 }
 
+.btn-purple {
+    background-color: var(--color-purple);
+    color: #fff;
+    font-weight: 700;
+    padding: 0.625rem 3.125rem;
+}
+
 /* REGOLE FLEX */
 
 .row {
