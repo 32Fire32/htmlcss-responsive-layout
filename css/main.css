@@ -4,10 +4,7 @@
 
 .box {
     background-color: var(--color-lightblue);
-    color: var(--color-blue);
-    height: 6.25rem;
-    margin: 1.25rem;
-    
+    color: var(--color-blue);    
 }
 
 /* REGOLE RESPONSIVE */
@@ -24,6 +21,10 @@
 }
 
 /* SECTION STRATEGIC */
+
+.strategic {
+    background-color: var(--color-purple);
+}
 
 .strategic .row {
     padding: 1.25rem;
@@ -70,5 +71,37 @@
 @media screen and (min-width:768px){
         .partners .col.box{
             flex-direction: row ;
+        }
+    }
+
+    /* SECTION BENEFITS */
+
+    .benefits {
+        background-color: var(--color-purple);
+        color: var(--color-purple);
+    }
+
+    .benefits .col {
+        background-color: #fff;
+    }
+
+    .benefits h2 {
+        color:#fff;
+        text-align: center;
+    }
+
+    /* REGOLE RESPONSIVE */
+    
+    /* Tablet */
+    @media screen and (min-width: 768px) {
+        .benefits .col {
+            width:calc(100% / 2 - 40px);
+        }
+    }
+
+    /* Desktop */
+    @media screen and (min-width: 992px) {
+        .benefits .col {
+            width:calc(100% / 3 - 40px);
         }
     }
