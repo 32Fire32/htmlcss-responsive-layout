@@ -4,7 +4,8 @@
 
 .box {
     background-color: var(--color-lightblue);
-    color: var(--color-blue);    
+    color: var(--color-blue);
+    height: 6.25rem;    
 }
 
 /* REGOLE RESPONSIVE */
@@ -90,6 +91,10 @@
         text-align: center;
     }
 
+    .benefits .col{
+        height: 6.25rem;
+    }
+
     /* REGOLE RESPONSIVE */
     
     /* Tablet */
@@ -105,3 +110,30 @@
             width:calc(100% / 3 - 40px);
         }
     }
+
+    /* SECTION ABOUT US */
+
+    .about-us h2 {
+        color: var(--color-purple);
+        text-align: center;
+    }
+
+    .about-us .col {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .about-us .row {
+        justify-content: center;
+    }
+
+    /* .col70 {
+        width:70%;
+    }
+
+    .col30 {
+        width: 30%;
+    } */

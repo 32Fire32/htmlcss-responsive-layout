@@ -13,6 +13,19 @@
     margin: auto;
 }
 
+section {
+    margin-bottom: 3.125rem;
+}
+
+.col {
+    width: 100%;
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+/* TIPOGRAFIA */
+
+
 /* REGOLE FLEX */
 
 .row {
