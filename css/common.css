@@ -23,8 +23,28 @@ section {
     margin: 1.25rem;
 }
 
+.list-nostyle {
+    list-style: none;
+}
+
+.link-nostyle {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* TIPOGRAFIA */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BOTTONI */
+
+button {
+    padding: 0.45rem 0.7rem;
+    border-radius: 1.125rem;
+    border: none;
+}
 
 /* REGOLE FLEX */
 
@@ -41,11 +61,7 @@ section {
     display: flex;
 }
 
-.list-nostyle {
-    list-style: none;
+.align-center {
+    align-items: center;
 }
 
-.link-nostyle {
-    text-decoration: none;
-    color: inherit;
-}

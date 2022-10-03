@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link Css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive Layout</title>
@@ -11,16 +17,18 @@
 <body>
     <header>
         <div class="container">
-            <div class="flex space-between">
-                <div class="logo">LOGO</div>
-                <button class="hamburger">MENU</button>
+            <div class="flex space-between align-center">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <button href="#" class="hamburger"><i class="fa-solid fa-bars"></i></button>
                 <nav class="nav-header">
                     <ul class="list-nostyle flex">
-                        <li><a class="link-nostyle" href="#">Link</a></li>
-                        <li><a class="link-nostyle" href="#">Link</a></li>
-                        <li><a class="link-nostyle" href="#">Link</a></li>
-                        <li><a class="link-nostyle" href="#">Link</a></li>
-                        <li><a class="link-nostyle" href="#">Link</a></li>
+                        <li><a class="link-nostyle" href="#">Planning</a></li>
+                        <li><a class="link-nostyle" href="#">Testimonials</a></li>
+                        <li><a class="link-nostyle" href="#">Features</a></li>
+                        <li><a class="link-nostyle" href="#">About Us</a></li>
+                        <li><button><a class="link-nostyle" href="#">Get Started</a></button></li>
                     </ul>
                 </nav>
             </div>
