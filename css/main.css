@@ -119,15 +119,21 @@
     }
 
     .about-us .col {
-        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    /* REGOLE RESPONSIVE */
+    /*Tablet e Desktop */
+    @media screen and (min-width:768px){
+        .about-us .col {
+            width: calc(100% / 2 - 40px);
+        }
 
-    .about-us .row {
-        justify-content: center;
+        .about-us .row {
+            flex-wrap: nowrap;
+        }
     }
 
     /* .col70 {
