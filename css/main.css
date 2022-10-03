@@ -385,11 +385,44 @@ em {
         background-color: var(--color-purple);
     }
 
+    .free span {
+        color:lightpink;
+    }
+
+    .free h4 {
+        color: #fff;
+        font-weight: 700;
+        margin: 1.25rem 0;   
+        font-size: 1.5rem; 
+    }
+
+    .free h3 {
+        color:orange; 
+        font-size: 3rem;       
+    }
+
     .free .row {
         justify-content: center;
     }
 
+    .free p, .text small, .free small {
+        color:#fff;
+    }  
+    
+    .free p {
+        font-size: 0.8rem;
+        margin: 1.25rem 0;    
+    }
+
+    .free button {
+        color: var(--color-purple);
+        width: 80%;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    
     .text-free {
         width: 50%;
         text-align: center;
+        padding: 3.125rem 0;
     }
