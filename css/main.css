@@ -6,9 +6,8 @@
     background-color: var(--color-lightblue);
     color: var(--color-blue);
     height: 6.25rem;
-    padding: 0.625rem;
     margin: 1.25rem;
-    width: 100%;
+    
 }
 
 /* REGOLE RESPONSIVE */
@@ -21,11 +20,6 @@
 
     .demo-application .box:first-child {
         width:calc((100% / 3 - 1.25rem) * 2);
-    }
-
-    .row {
-        margin-left: -1.25rem;
-        margin-right: -1.25rem;
     }
 }
 
@@ -56,4 +50,25 @@
         display: flex;
         align-items: flex-end;
     }
+    }
+
+    /* SECTION PARTNERS */
+
+    .debug-box-img{
+        width: 3.125rem;
+        height: 3.125rem;
+        background-color: brown;
+    }
+
+    .partners .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* REGOLE RESPONSIVE */
+    /*Tablet e Desktop */
+@media screen and (min-width:768px){
+        .partners .col.box{
+            flex-direction: row ;
+        }
     }
