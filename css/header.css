@@ -1,0 +1,22 @@
+/* HEADER */
+
+header {
+    background-color: var(--color-blue);
+    color: #fff;
+    padding: 1.25rem;
+}
+
+.nav-header {
+    display: none;
+}
+
+/* REGOLE RESPONSIVE */
+@media screen and (min-width:992px){
+    .hamburger {
+        display: none;
+    }
+
+    .list-nostyle {
+        display: flex;
+    }
+}

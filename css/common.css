@@ -1,0 +1,33 @@
+/* COLORI */
+
+:root {
+    --color-lightblue: #b5ddff;
+    --color-blue: #0084fd;
+    --color-purple: #9792e4;
+}
+
+/* REGOLE GENERALI */
+
+.container {
+    max-width: 71.25rem;
+    margin: auto;
+}
+
+/* REGOLE FLEX */
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-nostyle {
+    list-style: none;
+}
+
+.link-nostyle {
+    text-decoration: none;
+    color: inherit;
+}
