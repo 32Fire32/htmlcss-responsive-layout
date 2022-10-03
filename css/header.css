@@ -11,12 +11,14 @@ header {
 }
 
 /* REGOLE RESPONSIVE */
+
+/*Desktop */
 @media screen and (min-width:992px){
     .hamburger {
         display: none;
     }
 
-    .list-nostyle {
+    .nav-header {
         display: flex;
     }
 }

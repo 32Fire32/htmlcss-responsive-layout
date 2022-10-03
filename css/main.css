@@ -2,3 +2,29 @@
 
 /* SECTION DEMO APPLICATION */
 
+.box {
+    background-color: var(--color-lightblue);
+    color: var(--color-blue);
+    height: 6.25rem;
+    padding: 0.625rem;
+    margin: 1.25rem;
+    width: 100%;
+}
+
+/* REGOLE RESPONSIVE */
+
+/* Tablet e Desktop*/
+@media screen and (min-width:768px) {
+    .demo-application .box {
+        width:calc(100% / 3 - 2.5rem);
+    }
+
+    .demo-application .box:first-child {
+        width:calc((100% / 3 - 1.25rem) * 2);
+    }
+
+    .row {
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
+    }
+}
