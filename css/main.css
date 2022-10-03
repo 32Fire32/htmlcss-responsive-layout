@@ -125,7 +125,52 @@
     width: 100%;
 }
 
+.strategic .col img {
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.strategic h2, .strategic p {
+    color:#fff;
+    margin: 1.875rem 0;
+}
+
+section.strategic .container .row .col:last-child{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 3.75rem;
+}
+
+.strategic h3 {
+    margin-bottom: 1.875rem;
+}
+
+em {
+    color:black;    
+}
+
+.fa-arrow-down {
+    color: black;
+    font-size: 1rem;
+    padding: 0.625rem;
+}
+
+.strategic button {
+    border-radius: 100%;
+    background-color: var(--color-purple); 
+    margin-top: 50px;   
+}
+
 /* REGOLE RESPONSIVE */
+
+/* Tablet */
+@media screen and (min-width:768px) {
+    section.strategic .container .row .col:last-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /*Desktop */
 @media screen and (min-width:992px){
