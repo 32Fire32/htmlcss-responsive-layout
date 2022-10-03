@@ -2,12 +2,26 @@
 
 footer {
     background-color: #333333;
-}
-
-footer .row {
-    justify-content: center;
+    color: #fff;
 }
 
 footer .text-footer {
-    width: 50%;
+    text-align: center;
+    padding: 20px;
 }
+
+footer p {
+    margin-bottom: 50px;
+}
+
+/* REGOLE RESPONSIVE */
+    /*Tablet e Desktop */
+    @media screen and (min-width:768px){
+        .text-footer {
+            width: 50%;
+        }
+
+        .row {
+            justify-content: center;
+        }
+    }

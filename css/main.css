@@ -419,10 +419,19 @@ em {
         width: 80%;
         margin-bottom: 20px;
         font-weight: 700;
+        padding: 0.9375rem;
     }
     
     .text-free {
         width: 50%;
         text-align: center;
         padding: 3.125rem 0;
+    }
+
+    /* REGOLE RESPONSIVE */
+    /*Tablet e Desktop */
+    @media screen and (min-width:768px){
+        .free button {
+            width: 40%;
+        }
     }
