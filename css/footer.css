@@ -1,0 +1,13 @@
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+}
+
+footer .row {
+    justify-content: center;
+}
+
+footer .text-footer {
+    width: 50%;
+}

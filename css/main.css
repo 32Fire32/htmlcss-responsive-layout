@@ -136,10 +136,17 @@
         }
     }
 
-    /* .col70 {
-        width:70%;
+    /* SECTION FREE */
+
+    .free {
+        background-color: var(--color-purple);
     }
 
-    .col30 {
-        width: 30%;
-    } */
+    .free .row {
+        justify-content: center;
+    }
+
+    .text-free {
+        width: 50%;
+        text-align: center;
+    }
