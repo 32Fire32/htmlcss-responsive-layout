@@ -4,7 +4,7 @@
 
 .box {
     background-color: var(--color-lightblue);
-    padding: 30px;
+    padding: 1.875rem;
     border-radius: 1.5625rem;
     text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .box h2, .box p, .demo-text button {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .box h2 {
@@ -155,7 +155,7 @@ em {
 .strategic button {
     border-radius: 100%;
     background-color: var(--color-purple); 
-    margin-top: 50px;   
+    margin-top: 3.125rem;   
 }
 
 /* REGOLE RESPONSIVE */
@@ -192,7 +192,7 @@ em {
     }
 
     .partners .row {
-        margin: 0 20px;
+        margin: 0 1.25rem;
     }
 
     .partners .col {
@@ -231,7 +231,7 @@ em {
 
     .partners .fa-quote-left, .partners .fa-quote-right {
         color: #fff;
-        font-size: 20px;
+        font-size: 1.25rem;
         position: absolute;
     }
 
@@ -250,7 +250,7 @@ em {
     }
 
     .fa-quote-right {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     /* REGOLE RESPONSIVE */
@@ -336,11 +336,11 @@ em {
 
     .about-us h2 {
         color: var(--color-purple);
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .mb {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .about-us-text {
