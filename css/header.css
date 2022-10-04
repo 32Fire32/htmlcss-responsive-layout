@@ -4,16 +4,18 @@ header {
     background-color: var(--color-blue);
     color: #fff;
     padding: 1.25rem;
+    position: sticky;
+    top:0;
+    z-index: 10;            
+}
+
+header .fa-solid {
+    color: #fff;
+    font-size: 2rem;
 }
 
 .nav-header {
     display: none;
-}
-
-.fa-burger {
-    background-color: var(--color-blue);
-    color:#fff;
-    font-size: 50px;
 }
 
 header li {
@@ -24,7 +26,7 @@ header ul {
     align-items: center;
 }
 
-/* REGOLE RESPONSIVE */
+/* REGOLE RESPONSIVE
 
 /*Desktop */
 @media screen and (min-width:992px){
@@ -35,4 +37,4 @@ header ul {
     .nav-header {
         display: flex;
     }
-}
+} 

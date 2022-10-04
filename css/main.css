@@ -9,10 +9,6 @@
     text-align: center;
 }
 
-.demo-application .row {
-    margin: 0 -1.25rem;
-}
-
 .demo-text {
     text-align: center;
 }
@@ -45,9 +41,6 @@
     display: block;
 }
 
-
-
-
 /* REGOLE RESPONSIVE */
 
 /* Tablet */
@@ -77,6 +70,10 @@
 
 /* Desktop */
 @media screen and (min-width:992px) {
+
+    .demo-application .row {
+        margin: 0 -1.25rem;
+    }
     
     .phone {
         width: 17rem;
@@ -194,21 +191,22 @@ em {
         background-color: var(--color-purple);
     }
 
-    .partners .col {
-        text-align: center;
+    .partners .row {
+        margin: 0 20px;
     }
 
-    .partners h2{
+    .partners .col {
+        text-align: center;
+        margin: 1.25rem 0;
+    }
+
+    .partners h2 {
         color: var(--color-purple);
         margin: 1.25rem 0;
     }
 
     .partners p {
-        line-height: 30px;
-    }
-
-    .flex.col.box {
-        margin: 20px 0;
+        line-height: 1.875rem;
     }
 
     .partners .flex {
@@ -216,17 +214,35 @@ em {
         align-items: center;
     }
 
-    .partners img{
+    .partners img {
         width: 70vw;
         height: 70vw;
         object-fit: cover;
         border-radius: 100%;;
     }
 
-    .fa-quote-left, .fa-quote-right {
+    .partners-text {
+        position: relative;
+    }
+
+    .lorem {
+        margin: 1.25rem 0;
+    }
+
+    .partners .fa-quote-left, .partners .fa-quote-right {
         color: #fff;
         font-size: 20px;
-        line-height: 25px;
+        position: absolute;
+    }
+
+    .partners .fa-quote-left {
+        top: 0;
+        left: 0;
+    }
+
+    .partners .fa-quote-right {
+        bottom: 0;
+        right:0;
     }
 
     .partners-text {
@@ -266,8 +282,8 @@ em {
 
     .benefits .col {
         background-color: #fff;
-        margin: 0 1.25rem 1.875rem;
         border-radius: 1.5625rem;
+        margin: 1.25rem;
     }
 
     .benefits h2 {
@@ -286,12 +302,13 @@ em {
 
     .benefits p{
         color: black;
-        margin: 20px 0;
+        margin: 1.25rem 0;
     }
 
-    .benefits .row {
-        margin: 0 -1.25rem;
-    }
+    /* .benefits .row {
+        margin: 0 -20px;
+        justify-content: center;
+    } */
 
     
 
@@ -307,7 +324,7 @@ em {
     /* Desktop */
     @media screen and (min-width: 992px) {
         .benefits .col {
-            width:calc(100% / 3 - 3.75rem);
+            width:calc(100% / 3 - 2.5rem);
         }
 
         .row {
@@ -320,7 +337,6 @@ em {
     .about-us h2 {
         color: var(--color-purple);
         margin-bottom: 30px;
-
     }
 
     .mb {
@@ -332,10 +348,14 @@ em {
         padding: 1.875rem 0;
     }
 
-    .helper {
+    .about-us-img {
+        position:relative;
         width: 40vw;
         height: 40vw;
-        object-fit: cover;
+    }
+
+    .helper {
+        width: 100%;
         border-radius: 100%;
         display: block;
     }
@@ -343,27 +363,21 @@ em {
     .about-us .fa-quote-left {
         position:absolute;
         top:0;
-        left:100px;
+        right: 3%;
         color: var(--color-purple);
+        font-size: 3rem;
     }
 
     /* REGOLE RESPONSIVE */
     /*Tablet e Desktop */
-    @media screen and (min-width:768px){
-        .about-us .col {
-            width: calc(100% / 2 - 40px);
-        }
-
+    @media screen and (min-width:768px){                  
         .about-us .row {
             flex-wrap: nowrap;
         }
 
-        .helper {
-            width: 10vw;
-            height: 10vw;
-            object-fit: cover;
-            border-radius: 100%;
-            display: block;
+        .about-us-img {
+            width: 20vw;
+            height: 20vw;
         }
 
         .about-us .col{

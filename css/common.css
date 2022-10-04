@@ -21,8 +21,6 @@ section:last-child{
     margin-bottom: 0;
 }
 
-
-
 .col {
     width: 100%;
     padding: 1.25rem;
@@ -40,7 +38,7 @@ section:last-child{
 /* TIPOGRAFIA */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* BOTTONI */
