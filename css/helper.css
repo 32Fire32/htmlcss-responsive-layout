@@ -1,0 +1,45 @@
+/* HELPER */
+
+/* MARGIN */
+
+.mt20 {
+    margin-top: 1.25rem;
+}
+
+.mt30 {
+    margin-top: 1.875rem;
+}
+
+.mtb20 {
+    margin: 1.25rem 0;
+}
+
+.mtb30 {
+    margin: 1.875rem 0;
+}
+
+.margin-side30 {
+    margin: 0 1.875rem;
+}
+
+.margin-side20 {
+    margin: 0 1.25rem;
+}
+
+.mb30 {
+    margin-bottom: 1.875rem;
+}
+
+.mb20 {
+    margin-bottom: 1.875rem;
+}
+
+.mb50 {
+    margin-bottom:3.125rem;
+}
+
+/* PADDING */
+
+.nobp {
+    padding-bottom: 0;
+}

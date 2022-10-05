@@ -37,8 +37,9 @@
 }
 
 .phone {
-    width:100%;
+    max-width:100%;
     display: block;
+    max-height: 280px;
 }
 
 /* REGOLE RESPONSIVE */
@@ -82,7 +83,7 @@
     .demo-phone {
         position: absolute;
         bottom: 0;
-        right: 5rem;
+        right: 3rem;
     }
 
     .demo-text button {
@@ -215,10 +216,10 @@ em {
     }
 
     .partners img {
-        width: 70vw;
-        height: 70vw;
+        width: 12.5rem;
+        height: 12.5rem;
         object-fit: cover;
-        border-radius: 100%;;
+        border-radius: 100%;
     }
 
     .partners-text {
@@ -350,14 +351,14 @@ em {
 
     .about-us-img {
         position:relative;
-        width: 40vw;
-        height: 40vw;
+        display: inline-block;
     }
 
     .helper {
-        width: 100%;
         border-radius: 100%;
         display: block;
+        width: 12.5rem;
+        height: 12.5rem;
     }
 
     .about-us .fa-quote-left {
@@ -373,11 +374,6 @@ em {
     @media screen and (min-width:768px){                  
         .about-us .row {
             flex-wrap: nowrap;
-        }
-
-        .about-us-img {
-            width: 20vw;
-            height: 20vw;
         }
 
         .about-us .col{
